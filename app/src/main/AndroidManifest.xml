@@ -20,7 +20,8 @@
         <activity android:name=".PageSnapTestActivity" />
         <activity
             android:name=".AllPageActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".FragmentInRecycleViewActivity"></activity>
     </application>
 
 </manifest>

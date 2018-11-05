@@ -31,5 +31,12 @@ public class MainActivity extends AppCompatActivity {
                 AllPageActivity.start(MainActivity.this);
             }
         });
+
+        findViewById(R.id.bt_fragment_in_recycle).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentInRecycleViewActivity.start(MainActivity.this);
+            }
+        });
     }
 }

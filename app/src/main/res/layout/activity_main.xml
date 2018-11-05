@@ -29,6 +29,12 @@
             android:layout_height="wrap_content"
             android:text="all page test" />
 
+        <Button
+            android:id="@+id/bt_fragment_in_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fragment in recycle view" />
+
     </LinearLayout>
 
 </ScrollView>

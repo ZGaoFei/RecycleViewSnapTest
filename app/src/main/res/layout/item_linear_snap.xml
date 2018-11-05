@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="15dp"
     android:gravity="center_horizontal"
@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/tv_item_linear_snap"
-        android:layout_width="300dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="hahahah"
         android:gravity="center"
@@ -16,8 +16,8 @@
 
     <ImageView
         android:id="@+id/iv_item_linear_snap"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
         android:scaleType="centerCrop"
         android:src="@drawable/timg" />
 
